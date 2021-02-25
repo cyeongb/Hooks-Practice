@@ -5,7 +5,7 @@ const App = () => {
   const [visible, setVisible] = useState(false);
   return (
     <div>
-      <button onMouseOver={() => setVisible(!visible)}>
+      <button onClick={() => setVisible(!visible)}>
         {visible ? "HIDE" : "SHOW"}
       </button>
       {visible && <Info />}
