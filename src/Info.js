@@ -16,7 +16,7 @@ const Info = () => {
   };
 
   useEffect(() => {
-    console.log("useEffect()");
+    console.log("=========== useEffect()");
     console.log("name:" + name);
 
     return () => {
