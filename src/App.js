@@ -1,14 +1,10 @@
 import React, { useState } from "react";
-import Info from "./Info.js";
+import Counter2 from "./Counter2.js";
 
 const App = () => {
-  const [visible, setVisible] = useState(false);
   return (
     <div>
-      <button onClick={() => setVisible(!visible)}>
-        {visible ? "HIDE" : "SHOW"}
-      </button>
-      {visible && <Info />}
+      <Counter2 />
     </div>
   );
 };
