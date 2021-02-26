@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import Counter2 from "./Counter2.js";
+import React from "react";
+import Average_2 from "./Average_2.js";
 
 const App = () => {
   return (
     <div>
-      <Counter2 />
+      <Average_2 />
     </div>
   );
 };
